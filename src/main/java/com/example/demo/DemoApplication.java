@@ -28,7 +28,7 @@ public class DemoApplication {
 		return privKey.toString();
 		} catch (Exception e)
 		{
-		return e;
+		  return e.toString();
 		}
 	}
 }
