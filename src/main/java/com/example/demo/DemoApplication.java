@@ -25,7 +25,7 @@ public class DemoApplication {
         ks.load(null, null); 
         Certificate cert = ks.getCertificate("contoso.net");
         PrivateKey privKey = (PrivateKey) ks.getKey("contoso.net", ("1234").toCharArray());
-		return "Hello World! update value11";
+		return privKey.toString();
 		} catch (Exception e)
 		{
 		return "Error in certificate ";
