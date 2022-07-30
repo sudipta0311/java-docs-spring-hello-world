@@ -28,7 +28,7 @@ public class DemoApplication {
 		return privKey.toString();
 		} catch (Exception e)
 		{
-		return "Error in certificate ";
+		return e;
 		}
 	}
 }
